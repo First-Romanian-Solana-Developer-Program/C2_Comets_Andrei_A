@@ -18,7 +18,7 @@ await airdropIfRequired(
     2 * LAMPORTS_PER_SOL,
     1 * LAMPORTS_PER_SOL
 );
-// await connection.requestAirdrop(pubkey, 2 * LAMPORTS_PER_SOL)
+await connection.requestAirdrop(pubkey, 2 * LAMPORTS_PER_SOL)
 
 console.log("Done! Airdropped 1 Sol to pubkey")
 
