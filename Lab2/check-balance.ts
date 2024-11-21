@@ -5,7 +5,7 @@ import { airdropIfRequired } from "@solana-developers/helpers";
 const connection = new Connection(clusterApiUrl("devnet"),"confirmed");
 console.log("Connected to devnet", connection.rpcEndpoint);
 
-const pubkey = new PublicKey("EbbTRFUhCZ2YpfbEW9LnbqZdEoVHLk1UzvYUTBbq1mgJ");
+const pubkey = new PublicKey("DvQoca1HQwX1dyQSND8DXSWMteopkPtE1qtx9q8i3Dgg");
 
 const balanceInLamports = await connection.getBalance(pubkey);
 console.log("Done! pubkey's balance in lamports:", balanceInLamports);
